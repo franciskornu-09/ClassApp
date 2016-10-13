@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<title>COLLATE</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+		<!-- <meta name="format-detection" content=""> -->
 		<link rel="stylesheet"  href="css/jquery.mobile.structure.css" />
 		<link rel="stylesheet" href="css/jquery.mobile.theme.css" />
 		<script type="text/javascript" href="myscript.js"></script>
@@ -59,8 +60,8 @@
 				<a href="index.html" data-role="button" data-icon="refresh" data-iconpos="notext" style="background: white;border: none;">Refresh</a>
 			</div><!-- /header -->
 
-			<div><img src="genie.PNG" style="height: 100px; width: 100px;margin-left: 100px"></div>
 			<div data-role="content" style="text-shadow: none">
+    			<div><img src="genie.PNG" style="height: 100px; width: 100px;margin-left: 100px"></div>
 				<a href="#declareRegions" data-transition="pop">
 					<button>Declare</button>
 				 </a>
@@ -69,9 +70,15 @@
 					<button>Result</button>
 				 </a>
 			
-				<a href="#cameraPhoto" data-transition="slide">
+				<a href="#cameraPhoto" data-transition="flip">
 					<button>Camera</button>
+					<div><img style="display: none;width: 100%:height:100%"src="" id="small_Image" src=""></div>
 				 </a>
+
+				 <video width="370" controls>
+  					<source src="Ayo Jay- Gimme Kiss Official Video.mp4" type="video/mp4">
+                </video>
+                
 			</div>
 		</div><!-- /page -->
          
