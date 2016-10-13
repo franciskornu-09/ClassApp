@@ -17,7 +17,7 @@
 		};
 
 		function onPhotoDataSuccces(imageData){
-			var smallImage = document.getElementById('smallImage');
+			var smallImage = document.getElementById('small_Image');
 			smallImage.style.display='block';
 			smallImage.src="data.image/jpeg;base64,"+imageData;
 		}
